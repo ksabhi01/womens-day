@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navBar{
+	height: 10vh;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+#logo{
+	padding: 8px;
+}
+
+a{
+	text-decoration:none;
+	color: #46296E;
+}
+
+#navLink{
+	display: flex;
+}
+
+li{
+	list-style-type: none;
+	font-size: 25px;
+    padding: 15px;
+}
+#header{
+	/* background-image: url("./media/WomensDay2019-BalanceforBetter.jpg"); */
+	
+	
+}
+
+/* Slideshow container */
+.slideshow-container {
+  height:100vh;
+  width:100%;
+ 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.active:hover {
+  background-color: #717171;
+}
+
+
+.slider-image{
+	height:100vh;
+	width:100%;
+}
+
+/*Event Description*/
+
+.event{
+	padding: 60px;
+	height: 25vh;
+}
+
+.womensDayTitle{
+	color:#46296E;
+	text-align: center;
+}
+
+.EventContent{
+	text-align: center;
+	font-size: 22px;
+    padding-top: 62px;
+    color: #46296E;
+}
+
+.shakti{
+	text-align: center;
+    padding-top: 26px;
+    font-size: 2.5rem;
+    color: #46296E;
+}
+
+#newsSection{
+	height: 94vh;
+	padding: 60px;
+	position: relative;
+}
+
+#newsSection h2{
+	text-align: center;
+	color:gray;
+	font-size: 22px;
+}
+
+#newsSection h1{
+	text-align: center;
+	color:black;
+	padding-top: 20px;
+	font-size: 29px;
+}
+
+#line1{
+	position: absolute;
+    width: 19vw;
+    height: 4px;
+    top: 123px;
+    left: 22%;
+    background: black;
+}
+
+#line2{
+	position: absolute;
+    width: 19vw;
+    height: 4px;
+    top: 123px;
+    right: 22%;
+    background: black;
+}
+
+#cards{
+	padding: 40px 0;
+    text-align: center;
+}
+
+#cards div{
+	padding: 26px;
+}
+
+.news-cards{
+	padding: 10px;
+}
+
+#cards img:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+
+#footer{
+	height: 60vh;
+	background: #46296E;
+	padding: 3rem;
+	display: flex;
+}
+
+.footer-left{
+	width: 30vw;
+}
+
+.footer-text{
+	color: white;
+    padding-top: 64px;
+    font-size: 19px;
+}
+
+#footer-link-text a{
+	color: white;
+	
+}
